@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="runtime artifact">
+    <output-path>$PROJECT_DIR$/out/artifacts/runtime_artifact</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="helloWorldWebApp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jakarta.servlet-api-5.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.servlet-api.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="helloWorldWebApp/web/Web" />
+    </root>
+  </artifact>
+</component>
