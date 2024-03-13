@@ -3,7 +3,7 @@
 
   <threadsafe>true</threadsafe>
   <sessions-enabled>true</sessions-enabled>
-  <runtime>java8</runtime>
+  <runtime>java17</runtime>
 
   <system-properties>
     <property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
